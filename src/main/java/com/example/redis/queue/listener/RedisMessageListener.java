@@ -1,4 +1,4 @@
-package com.example.testredispubsub.listener;
+package com.example.redis.queue.listener;
 
 import java.util.List;
 import java.util.Objects;

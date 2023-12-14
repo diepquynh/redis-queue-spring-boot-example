@@ -1,4 +1,4 @@
-package com.example.testredispubsub.config;
+package com.example.redis.queue.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

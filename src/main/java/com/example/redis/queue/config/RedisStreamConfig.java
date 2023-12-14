@@ -1,4 +1,4 @@
-package com.example.testredispubsub.config;
+package com.example.redis.queue.config;
 
 import java.time.Duration;
 import java.util.Map;

@@ -11,10 +11,10 @@
 	</parent>
 
 	<groupId>com.example</groupId>
-	<artifactId>test-redis-pubsub</artifactId>
+	<artifactId>redis-queue-spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>test-redis-pubsub</name>
-	<description>test-redis-pubsub</description>
+	<name>Redis Pub/Sub - Redis Stream message queue publisher/subscriber</name>
+	<description>Redis Pub/Sub - Redis Stream message queue publisher/subscriber implementation in Spring Boot</description>
 
 	<properties>
 		<java.version>17</java.version>
@@ -45,6 +45,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
 			<optional>true</optional>
 		</dependency>
 

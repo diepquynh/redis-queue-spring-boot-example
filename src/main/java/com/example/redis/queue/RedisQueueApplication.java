@@ -1,4 +1,4 @@
-package com.example.testredispubsub;
+package com.example.redis.queue;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,9 +8,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAsync
 @EnableScheduling
 @SpringBootApplication
-public class TestRedisPubsubApplication {
+public class RedisQueueApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestRedisPubsubApplication.class, args);
+        SpringApplication.run(RedisQueueApplication.class, args);
     }
 }

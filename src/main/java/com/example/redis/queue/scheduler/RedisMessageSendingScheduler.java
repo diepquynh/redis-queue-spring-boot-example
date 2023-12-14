@@ -1,11 +1,11 @@
-package com.example.testredispubsub.scheduler;
+package com.example.redis.queue.scheduler;
 
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.example.testredispubsub.publisher.RedisMessagePublisher;
+import com.example.redis.queue.publisher.RedisMessagePublisher;
 
 @Component
 @RequiredArgsConstructor

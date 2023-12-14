@@ -1,4 +1,4 @@
-package com.example.testredispubsub.publisher;
+package com.example.redis.queue.publisher;
 
 public interface RedisMessagePublisher<T> {
 

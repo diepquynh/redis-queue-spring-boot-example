@@ -1,4 +1,4 @@
-package com.example.testredispubsub.publisher.impl;
+package com.example.redis.queue.publisher.impl;
 
 import lombok.RequiredArgsConstructor;
 
@@ -9,7 +9,7 @@ import org.springframework.data.redis.listener.ChannelTopic;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
-import com.example.testredispubsub.publisher.RedisMessagePublisher;
+import com.example.redis.queue.publisher.RedisMessagePublisher;
 
 @Component
 @RequiredArgsConstructor
