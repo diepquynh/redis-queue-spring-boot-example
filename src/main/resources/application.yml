@@ -1,0 +1,9 @@
+spring:
+  data:
+    redis:
+      cluster:
+        nodes: ${REDIS_CLUSTER_NODES:localhost:6379}
+      timeout: 30000
+  redis:
+    messaging:
+      topic: test-topic
