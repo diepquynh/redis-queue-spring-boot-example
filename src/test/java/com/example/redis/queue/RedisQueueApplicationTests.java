@@ -4,7 +4,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import org.junit.jupiter.api.Test;
 
-@SpringBootTest
+@SpringBootTest(classes = RedisTestContainerConfig.class)
 class RedisQueueApplicationTests {
 
     @Test
